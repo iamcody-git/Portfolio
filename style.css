@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+/* header part */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(63, 18, 18);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: lawngreen;
+    font-size: 1.04rem;
+}
+nav ul button{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 140px 0;
+  
+
+}
+.leftSection{
+    font-size: 3rem;
+    margin: 30px 0;
+     
+}
+.leftSection .buttons{
+    padding: 50px 0;
+}
+.leftSection .btn{
+    padding: 12px;
+    background-color: #1e2167;
+    color: white;
+    border: 2px solid white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.leftSection .btn a{
+    text-decoration: none;
+    color: white;
+
+}
+.leftSection .btn a:hover{
+    color: lawngreen;
+    font-size: 1.4rem;
+
+}
+
+.firstSection > div{
+    width: 30%;
+}
+.rightSection img{
+    width: 130%;
+    height: 100%;
+
+}
+#purple{
+    color: rgb(252, 4, 252);
+}
+#element{
+    color: rgb(43, 214, 13);
+}
+.secondSection{
+    max-width:80vw ;
+    margin: auto;
+    height: 80vh;
+}
+main hr{
+    border: 0;
+    background-color: aqua;
+    height: 1.2px;
+    margin: 30px 84px;
+
+}
+.secondSection h1{
+    font-size: 50px;
+    color: rgb(108, 169, 16);
+}
+.textgrey{
+    color: grey;
+}
+.secondSection .box{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondSection .vertical{
+    height: 93px;
+    width: 1px;
+    margin: 0 120px;
+    background-color: white;
+   
+}
+.vertical-title{
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 16px;
+
+}
+.vertical-desc{
+   position: relative;
+   font-size: 9px;
+   top:86px;
+   color: rgb(43, 226, 110);
+   width: 150px;
+}
+.image-top{
+    width: 30px;
+    position: relative;
+    top:-32px;
+    left: -9px;
+}
+
+/* footer part */
+
+.footer{
+    display: flex;
+    background-color: rgb(33, 24, 1);
+    justify-content: space-evenly;
+}
+
+.footer ul{
+    list-style: none;
+}
+footer .footer-first{
+    padding: 50px 0;
+    color: greenyellow;
+    
+}
+.footer-second .social-icons{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin:50px 0 ;
+    
+}
+
+  footer .footer-rights{
+    text-align: center;
+    padding: 50px 0;
+    color: gray;
+   
+}
+
+.social-icons li {
+    list-style: none;
+    padding: 0 10px; 
+}
+
+.social-icons ion-icon {
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+.social-icons  ion-icon:hover{
+    color: lawngreen;
+    font-size: 1.4rem;
+}
+/* @media screen and (max-width:2000px){
+    .box{
+        flex-direction: column;
+    }
+    .secondSection .vertical{
+        height: unset;
+
+    }
+    .vertical-title, .vertical-desc{
+        left: 45px;
+    }
+    .secondSection .box{
+        width: 50vw;
+    }
+
+     footer{
+    display: none;
+    }
+     nav{
+    flex-direction: column;
+    }
+} */
+
