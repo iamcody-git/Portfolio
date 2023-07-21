@@ -36,7 +36,8 @@ nav ul li a:hover{
 nav ul button{
     background-color: blue;
     color: white;
-    border-radius: 5px;
+    border-radius: 6px;
+    width: 60px;
 }
 .left{
     font-size: 1.5rem;
