@@ -34,10 +34,11 @@ nav ul li a:hover{
     font-size: 1.04rem;
 }
 nav ul button{
-    background-color: blue;
+    background-color: rgb(43, 241, 8);
     color: white;
     border-radius: 6px;
     width: 60px;
+    height: 25px;
 }
 .left{
     font-size: 1.5rem;
@@ -139,10 +140,11 @@ main hr{
    width: 150px;
 }
 .image-top{
-    width: 30px;
+    width: 25px;
     position: relative;
     top:-32px;
-    left: -9px;
+    left: -5px;
+    background-color: aquamarine;
 }
 
 /* footer part */
@@ -190,26 +192,5 @@ footer .footer-first{
     color: lawngreen;
     font-size: 1.4rem;
 }
-/* @media screen and (max-width:2000px){
-    .box{
-        flex-direction: column;
-    }
-    .secondSection .vertical{
-        height: unset;
 
-    }
-    .vertical-title, .vertical-desc{
-        left: 45px;
-    }
-    .secondSection .box{
-        width: 50vw;
-    }
-
-     footer{
-    display: none;
-    }
-     nav{
-    flex-direction: column;
-    }
-} */
 
