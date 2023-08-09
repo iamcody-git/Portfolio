@@ -281,3 +281,25 @@ footer .footer-first{
     font-size: var(--normal-font-size);
     cursor: pointer;
 }
+
+.skills__list {
+    max-width: 450px;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border:2px solid green;
+  }
+  .skills__list li{
+    border:2px solid green;
+  }
+  
+  .skills__list-item {
+    margin: 0.9em;
+  }
+  ion-icon {
+    font-size:35px;
+    color:wheat;
+
+}
