@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+/* header part */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(63, 18, 18);
+    cursor: pointer;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(0, 255, 72);
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+nav ul li a:hover{
+    color: lawngreen;
+    font-size: 1.04rem;
+}
+nav ul button{
+    background-color: rgb(43, 241, 8);
+    color: white;
+    border-radius: 6px;
+    width: 60px;
+    height: 25px;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 140px 0;
+  
+
+}
+.leftSection{
+    font-size: 3rem;
+    margin: 30px 0;
+     
+}
+.leftSection .buttons{
+    padding: 50px 0;
+}
+.leftSection .btn{
+    padding: 12px;
+    background-color: #1e2167;
+    color: white;
+    border: 2px solid white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.leftSection .btn a{
+    text-decoration: none;
+    color: white;
+
+}
+.leftSection .btn a:hover{
+    color: lawngreen;
+    font-size: 1.4rem;
+
+}
+
+.firstSection > div{
+    width: 30%;
+}
+.rightSection img{
+    width: 130%;
+    height: 100%;
+
+}
+#purple{
+    color: rgb(252, 4, 252);
+}
+#element{
+    color: rgb(43, 214, 13);
+}
+.secondSection{
+    max-width:80vw ;
+    margin: auto;
+    height: 80vh;
+}
+main hr{
+    border: 0;
+    background-color: aqua;
+    height: 1.2px;
+    margin: 30px 84px;
+
+}
+.secondSection h1{
+    font-size: 50px;
+    color: rgb(108, 169, 16);
+}
+.textgrey{
+    color: grey;
+}
+.secondSection .box{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondSection .vertical{
+    height: 93px;
+    width: 1px;
+    margin: 0 120px;
+    background-color: white;
+   
+}
+.vertical-title{
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 16px;
+
+}
+.vertical-desc{
+   position: relative;
+   font-size: 9px;
+   top:86px;
+   color: rgb(43, 226, 110);
+   width: 150px;
+}
+.image-top{
+    width: 25px;
+    position: relative;
+    top:-32px;
+    left: -5px;
+    background-color: aquamarine;
+}
+
+/* footer part */
+
+.footer{
+    display: flex;
+    background-color: rgb(33, 24, 1);
+    justify-content: space-evenly;
+}
+
+.footer ul{
+    list-style: none;
+}
+footer .footer-first{
+    padding: 50px 0;
+    color: greenyellow;
+    
+}
+.footer-second .social-icons{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin:50px 0 ;
+    
+}
+
+  footer .footer-rights{
+    text-align: center;
+    padding: 50px 0;
+    color: gray;
+   
+}
+
+.social-icons li {
+    list-style: none;
+    padding: 0 10px; 
+}
+
+.social-icons ion-icon {
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+.social-icons  ion-icon:hover{
+    color: lawngreen;
+    font-size: 1.4rem;
+}
+
+
+/* ===== PORTFOLIO =====*/
+.portfolio{
+    background-color: var(--white-color);
+}
+.portfolio__container{
+    justify-items: center;
+    row-gap: 2rem;
+    display: flex;
+}
+.portfolio__img{
+    position: relative;
+    overflow: hidden;
+}
+.portfolio__img img{
+    border-radius: .5rem;
+}
+.portfolio__link{
+    position: absolute;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255,255,255,.3);
+    border-radius: .5rem;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    transition: .3s;
+}
+.portfolio__img:hover .portfolio__link{
+    bottom: 0;
+}
+.portfolio__link-name{
+    color: var(--dark-color);
+}
+.section-title{
+    text-align: center;
+    color: gold;
+    padding: 15px;
+
+}
+
+/* ===== CONTACT =====*/
+.contact__container{
+    row-gap: 2rem;
+}
+.contact__subtitle{
+    font-size: var(--normal-font-size);
+    color: var(--first-color);
+}
+.contact__text{
+    display: inline-block;
+    margin-bottom: var(--mb-2);
+}
+.contact__inputs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+}
+.contact__input{
+    width: 100%;
+    padding: .8rem;
+    outline: none;
+    border: 1.5px solid var(--dark-color);
+    font-size: var(--normal-font-size);
+    margin-bottom: var(--mb-4);
+    border-radius: .5rem;
+}
+.contact__button{
+    display: block;
+    background-color: var(--first-color);
+    color: var(--white-color);
+    padding: .75rem 2.5rem;
+    margin-left: auto;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    font-size: var(--normal-font-size);
+    cursor: pointer;
+}
+
+.skills__list {
+    max-width: 450px;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border:2px solid green;
+  }
+  .skills__list li{
+    border:2px solid green;
+  }
+  
+  .skills__list-item {
+    margin: 0.9em;
+  }
+  ion-icon {
+    font-size:35px;
+    color:wheat;
+
+}
