@@ -52,3 +52,11 @@ form button{
     margin: 20px auto 0;
     border-radius: 30px;
 }
+
+.alert{
+    width: 100%;
+    background-color: greenyellow;
+    text-align: center;
+    border-radius: 5px;
+    display: none;
+}

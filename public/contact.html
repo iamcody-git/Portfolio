@@ -28,7 +28,8 @@
 
     <div class="container">
     
-        <form onsubmit="sendEmail(); reset(); return false;">
+        <form action="" id="conatctForm">
+            <div class="alert">Your data send</div>
 
             <h3>For Contact </h3>
             <input type="text" id="name" placeholder="Your name" required>
@@ -66,8 +67,9 @@
         </footer>
 
 
-    <script src="script.js"></script>
+    <script src="index.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js">
+    
     </script>
 </body>
 </html>
